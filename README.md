@@ -12,6 +12,8 @@
   - `utils`: helpful reusable function modules
   - `components`: Basic to required components that gets the required data to render from the context API
   - `constants`: table, query related constants with their mock responses as JSON files.
+- To mock the network calls, responses will be returned in the time range of 2 seconds for each query.
+- For the purpose of this test User is allowed to type anything in the input field to run as a query. It should be contain more than 5 character to click on run.
 
 ### The JavaScript framework you chose, along with any major plugins or packages installed.
 
@@ -79,6 +81,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 - Deployed on netlify. App is accessible on this URL : https://hiring-divyesh-parmar-sql-play.netlify.app/
 
-### `npm run build` fails to minify
+### Future
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This app aims to allow user personas of engineers and analyst for their workloads. Immediate feature updates can be something like this, while this is not a complete list, it is open to discussion based on requirements.
+
+1. A proper robust query validator on the front-end. This can be coupled with supportive suggestions and special keywords
+2. Another my favourite feature would be to provide a list of tables in the given database on the left side panel below the bookmarked section. This can allow users to click on the table name and that name will appended in the query, wherever the cursor would be at the moment.
+3. Along the same lines, we can provide a dropdown for different set of environments to show. User can click on one and see all the avilable tables on the left panel, and can query in the same environment. This would be essential for enterprise customers for heavy lifting of their data on different environments.
+4. A better robust support for actual query time display that it took to query the database.
