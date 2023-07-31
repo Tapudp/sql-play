@@ -15,7 +15,7 @@ const CustomTable = ({ columns, rows }) => {
         <tr className='border border-black'>
           {columns.map((column) => (
             <th
-              className='text-left px-6 py-4 text-gray-500 dark:text-gray-400 border border-black'
+              className='text-left px-5 py-3 text-gray-500 dark:text-gray-400 border border-black'
               key={column.id}
             >
               {column.label}
@@ -28,7 +28,7 @@ const CustomTable = ({ columns, rows }) => {
           <tr className='border border-black'>
             {Object.values(row).map((value, index) => (
               <td
-                className='px-6 py-4 text-gray-700 dark:text-gray-500 border border-black break-all'
+                className='px-5 py-3 text-gray-700 dark:text-gray-500 border border-black'
                 key={index + 1}
               >
                 {value}

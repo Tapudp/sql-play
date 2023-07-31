@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
 import constants from '../constants';
 import BFFService from '../service';
+import utils from '../utils';
 
 const AppContext = createContext({
   value: {
@@ -66,6 +67,8 @@ const AppContextProvider = ({ children }) => {
   };
 
   const changePage = (type) => {
+    utils.moveScrollToTop();
+
     if (type === 'prev') {
       setPage((prev) => (prev > 1 ? prev - 1 : 1));
       return;

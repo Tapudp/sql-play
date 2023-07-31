@@ -16,6 +16,7 @@ export default function AppContainer() {
             <SqlEditor />
           </div>
           <div
+            id='result-container'
             className='row-span-11 col-span-3 border border-2 pb-2 shadow-2xl shadow-inner bg-white block rounded'
             style={{
               height: '65vh',

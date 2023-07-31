@@ -13,9 +13,17 @@ const paginate = (rows, pageNumber) => {
   return rows.slice(startIndex, endIndex);
 };
 
+const moveScrollToTop = () => {
+  const resultContainer = document.getElementById('result-container');
+  if (resultContainer) {
+    resultContainer.scrollTo(0, 0);
+  }
+};
+
 const utils = {
   mockSeconds,
   paginate,
+  moveScrollToTop,
 };
 
 export default utils;
