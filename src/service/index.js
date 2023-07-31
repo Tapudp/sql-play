@@ -6,80 +6,86 @@ import deleteWordResult from '../constants/deleteWord.json';
 import randomQueryResult from '../constants/randomQueryResult.json';
 import utils from '../utils';
 
-const mockFetch = (url, request) => {
+const mockFetch = (url, request, mockResult) => {
   console.log(':: mock fetch :: ', url, JSON.stringify(request));
+
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(mockResult);
+    }, utils.mockSeconds(2));
+  });
 };
 
 const fetchWords = async () => {
-  const result = await mockFetch('/api/v1/words', {
-    method: 'GET',
-  });
+  const result = await mockFetch(
+    '/api/v1/words',
+    {
+      method: 'GET',
+    },
+    allWordsResult
+  );
 
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(allWordsResult);
-    }, utils.mockSeconds(2));
-  });
+  return result;
 };
 
 const fetchOneWord = async () => {
-  const result = await mockFetch('/api/v1/words', {
-    method: 'GET',
-  });
+  const result = await mockFetch(
+    '/api/v1/words',
+    {
+      method: 'GET',
+    },
+    oneWordResult
+  );
 
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(oneWordResult);
-    }, utils.mockSeconds(2));
-  });
+  return result;
 };
 
 const createWord = async () => {
-  const result = await mockFetch('/api/v1/words', {
-    method: 'POST',
-  });
+  const result = await mockFetch(
+    '/api/v1/words',
+    {
+      method: 'POST',
+    },
+    createWordResult
+  );
 
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(createWordResult);
-    }, utils.mockSeconds(2));
-  });
+  return result;
 };
 
 const updateWord = async () => {
-  const result = await mockFetch('/api/v1/words', {
-    method: 'PUT',
-  });
+  const result = await mockFetch(
+    '/api/v1/words',
+    {
+      method: 'PUT',
+    },
+    updateWordResult
+  );
 
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(updateWordResult);
-    }, utils.mockSeconds(2));
-  });
+  return result;
 };
 
 const deleteWord = async () => {
-  const result = await mockFetch('/api/v1/words', {
-    method: 'DELETE',
-  });
+  const result = await mockFetch(
+    '/api/v1/words',
+    {
+      method: 'DELETE',
+    },
+    deleteWordResult
+  );
 
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(deleteWordResult);
-    }, utils.mockSeconds(2));
-  });
+  return result;
 };
 
 const randomQuery = async (queryText) => {
-  const result = await mockFetch('/api/v1/random-words', {
-    method: 'GET',
-  });
+  const result = await mockFetch(
+    '/api/v1/random-words',
+    {
+      method: 'GET',
+    },
+    randomQueryResult
+  );
 
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(randomQueryResult);
-    }, utils.mockSeconds(5));
-  });
+  return result;
 };
 
 const BFFService = {

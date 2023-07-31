@@ -24,10 +24,10 @@ export default function Status() {
 
   return (
     <div className='grid gap-2'>
-      <div className='text-xs'>
-        Currently serving this query : <p className='font-bold'>{query}</p>
+      <div className='text-xs cursor-default'>
+        Currently serving this query : <p className='font-bold cursor-text'>{query}</p>
       </div>
-      <p className='text-sm font-bold text-green-500'>
+      <p className='text-sm font-bold text-green-500 cursor-default'>
         Successfully fetched {result.rows.length} row{result.rows.length > 1 ? 's' : ''}
       </p>
     </div>

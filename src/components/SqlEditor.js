@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useAppContext } from '../context';
 import Pagination from './Pagination';
 import Status from './Status';
 
 export default function SqlEditor() {
-  const { isLoading, makeQuery } = useAppContext();
+  const {
+    isLoading,
+    makeQuery,
+    currentQuery: { query },
+    state: { favouriteQueries },
+  } = useAppContext();
   const [queryText, setQuery] = useState('');
 
   const handleUpdate = (event) => {
@@ -14,6 +19,12 @@ export default function SqlEditor() {
 
     setQuery(event.target.value);
   };
+
+  useEffect(() => {
+    if (favouriteQueries.includes(query)) {
+      setQuery('');
+    }
+  }, [query, favouriteQueries]);
 
   return (
     <div className='grid grid-cols-1 grid-rows-2 items-center gap-1'>
