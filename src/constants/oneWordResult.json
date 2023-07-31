@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "message": "Successfully fetched the word result",
+  "status": 200,
+  "data": {
+    "columns": [
+      {
+        "label": "Word",
+        "id": 0,
+        "accessor": "word"
+      },
+      {
+        "label": "Definition",
+        "id": 1,
+        "accessor": "definition"
+      },
+      {
+        "label": "is_deleted",
+        "id": 2,
+        "accessor": "isDeleted"
+      },
+      {
+        "label": "user_id",
+        "id": 2,
+        "accessor": "userId"
+      },
+      {
+        "label": "review_id",
+        "id": 2,
+        "accessor": "reviewId"
+      }
+    ],
+    "rows": [
+      {
+        "word": "new word",
+        "definition": "test",
+        "isDeleted": 0,
+        "userId": 583,
+        "reviewId": 425873
+      },
+      {
+        "word": "new word",
+        "definition": "test-2",
+        "isDeleted": 1,
+        "userId": 891,
+        "reviewId": 65187
+      }
+    ]
+  }
+}

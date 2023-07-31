@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "message": "Successfully fetched the word result",
+  "status": 200,
+  "data": {
+    "columns": [
+      {
+        "label": "Id",
+        "id": 0,
+        "accessor": "id"
+      },
+      {
+        "label": "Word",
+        "id": 1,
+        "accessor": "word"
+      },
+      {
+        "label": "Definition",
+        "id": 2,
+        "accessor": "definition"
+      },
+      {
+        "label": "is_deleted",
+        "id": 3,
+        "accessor": "isDeleted"
+      },
+      {
+        "label": "user_id",
+        "id": 4,
+        "accessor": "userId"
+      },
+      {
+        "label": "review_id",
+        "id": 5,
+        "accessor": "reviewId"
+      }
+    ],
+    "rows": [
+      {
+        "id": 236,
+        "word": "attitude-oriented",
+        "definition": "Construction Clean and Final Clean",
+        "isDeleted": 1,
+        "userId": "b3cd8d04-c119-4343-9306-821dafc91482",
+        "reviewId": "1NQMzaopeMGQsfdGLYVaBppeq2z27oR2cu"
+      }
+    ]
+  }
+}

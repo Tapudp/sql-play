@@ -1,0 +1,369 @@
+{
+  "success": true,
+  "message": "Successfully fetched 41 rows",
+  "status": 200,
+  "data": {
+    "columns": [
+      {
+        "label": "id",
+        "id": 0,
+        "accessor": "id"
+      },
+      {
+        "label": "Word",
+        "id": 1,
+        "accessor": "word"
+      },
+      {
+        "label": "Definition",
+        "id": 2,
+        "accessor": "definition"
+      },
+      {
+        "label": "is_deleted",
+        "id": 3,
+        "accessor": "isDeleted"
+      },
+      {
+        "label": "user_id",
+        "id": 4,
+        "accessor": "userId"
+      },
+      {
+        "label": "review_id",
+        "id": 5,
+        "accessor": "reviewId"
+      }
+    ],
+    "rows": [
+      {
+        "id": 1,
+        "word": "Infiniti",
+        "definition": "Epoxy Flooring",
+        "isDeleted": 1,
+        "userId": "c8ee7ce6-1c3f-4e02-a1c6-1c123c854080",
+        "reviewId": "1ERXHmNPFQFQiDHvkZFetKsCFiZqzsH4Ua"
+      },
+      {
+        "id": 2,
+        "word": "Ford",
+        "definition": "Soft Flooring and Base",
+        "isDeleted": 0,
+        "userId": "55e424e3-6380-4235-80b1-1879f8e39fe3",
+        "reviewId": "124ivw6kEjy1emuLBLKDDrdbHN8Y98vSiF"
+      },
+      {
+        "id": 3,
+        "word": "Buick",
+        "definition": "Drywall & Acoustical (MOB)",
+        "isDeleted": 1,
+        "userId": "8cec84f5-af40-430d-8cdb-3167b5e94e88",
+        "reviewId": "1kf92idFGuDKmHHftzuzmL7gQX5kV8pyX"
+      },
+      {
+        "id": 4,
+        "word": "Hyundai",
+        "definition": "Waterproofing & Caulking",
+        "isDeleted": 1,
+        "userId": "824d8989-350f-4e82-992d-bb57165f40ec",
+        "reviewId": "14UZ69duKyVz8R38trF9VmnAtcWrQnBcDh"
+      },
+      {
+        "id": 5,
+        "word": "Honda",
+        "definition": "Construction Clean and Final Clean",
+        "isDeleted": 0,
+        "userId": "bfe79bc2-c1f5-46d9-bd36-2a618fa480af",
+        "reviewId": "1PditmSZYYhtYK7z3gaZxJSpVshTEyxdzN"
+      },
+      {
+        "id": 6,
+        "word": "Chevrolet",
+        "definition": "Fire Protection",
+        "isDeleted": 0,
+        "userId": "3749541b-9eac-4890-a534-205541934d5e",
+        "reviewId": "1DAM7JeJRTsfbjpCng29ETysrPVcJuQm8M"
+      },
+      {
+        "id": 7,
+        "word": "Volvo",
+        "definition": "Drilled Shafts",
+        "isDeleted": 0,
+        "userId": "295453ba-b402-4b37-baab-22197dde8749",
+        "reviewId": "13j8FUzJPf3skM5npbrsw3jkUEm7vSoHj1"
+      },
+      {
+        "id": 8,
+        "word": "Mazda",
+        "definition": "Retaining Wall and Brick Pavers",
+        "isDeleted": 0,
+        "userId": "59911d3e-bd8b-4b89-bfbd-c42c33d7c122",
+        "reviewId": "1NHuFGTU1M6HrHZTrh4m71KRnXkcYGVpP1"
+      },
+      {
+        "id": 9,
+        "word": "Toyota",
+        "definition": "Termite Control",
+        "isDeleted": 1,
+        "userId": "26838f62-d0cd-48ef-816d-4c494f709cdd",
+        "reviewId": "18X6oCRdqeN3RW9y3N9EQtFNqqtAGgENkH"
+      },
+      {
+        "id": 10,
+        "word": "Audi",
+        "definition": "Fire Sprinkler System",
+        "isDeleted": 1,
+        "userId": "64e369eb-715f-4384-ab6f-5357018fb315",
+        "reviewId": "1PHTiXqEfRsmko3tSQfDkTHfQyu5aGkFxj"
+      },
+      {
+        "id": 11,
+        "word": "GMC",
+        "definition": "Roofing (Asphalt)",
+        "isDeleted": 1,
+        "userId": "f3f8ab3d-8235-4a02-ac9b-b16b502af3dc",
+        "reviewId": "14sN4EqkTNYpKWZqD5RVnr4b3nF4XjK3WL"
+      },
+      {
+        "id": 12,
+        "word": "Lincoln",
+        "definition": "Epoxy Flooring",
+        "isDeleted": 0,
+        "userId": "2b85dba5-8aa4-4c2e-a554-a4b357643a0e",
+        "reviewId": "15LnzjzsUDrLTnuYrtB6Zy774VbMMVQYsF"
+      },
+      {
+        "id": 13,
+        "word": "Suzuki",
+        "definition": "Sitework & Site Utilities",
+        "isDeleted": 0,
+        "userId": "0c71b0e0-e243-43dd-a00b-a4cc96475ea6",
+        "reviewId": "1GFDbYeWm1E7Wh38n4ZHoHSGjkWs5fbieH"
+      },
+      {
+        "id": 14,
+        "word": "Porsche",
+        "definition": "Curb & Gutter",
+        "isDeleted": 0,
+        "userId": "75059ce3-958e-47b7-a2a0-b18e68d2aea3",
+        "reviewId": "17bC7EXrMsY9Fy5XsySSq5PnVCGW1Qou5m"
+      },
+      {
+        "id": 15,
+        "word": "Suzuki",
+        "definition": "Framing (Steel)",
+        "isDeleted": 0,
+        "userId": "efef5e7f-6384-48fa-b0b2-cf01f23c2692",
+        "reviewId": "1718Z8LmWa5wohAHmM2sz25i3bHv39X1DQ"
+      },
+      {
+        "id": 16,
+        "word": "Mercury",
+        "definition": "Termite Control",
+        "isDeleted": 1,
+        "userId": "d4c411c2-d9fc-419f-844a-367c625a2b5e",
+        "reviewId": "1DPnhmSuTrouUbXawCyZ1u9USgZAcQF5Fj"
+      },
+      {
+        "id": 17,
+        "word": "Ford",
+        "definition": "Marlite Panels (FED)",
+        "isDeleted": 1,
+        "userId": "528cc3d9-8d69-4a30-b891-02b375fd2ebe",
+        "reviewId": "1Pd3xcGJzrp4q5eUVEC4pxyVVN4eubBVXz"
+      },
+      {
+        "id": 18,
+        "word": "Mercury",
+        "definition": "Ornamental Railings",
+        "isDeleted": 0,
+        "userId": "221121dd-e16e-4543-bf77-1d0081904b88",
+        "reviewId": "1P3xuQc8ejZhS7z6pYhD6HS2Pmk9MEzqAu"
+      },
+      {
+        "id": 19,
+        "word": "Mazda",
+        "definition": "Drywall & Acoustical (MOB)",
+        "isDeleted": 1,
+        "userId": "4394aeca-b467-4f76-b11c-76c0cedfc005",
+        "reviewId": "1AerfAU26ugTkjjaqwRb7JJoLeD5nhC2Ch"
+      },
+      {
+        "id": 20,
+        "word": "Nissan",
+        "definition": "Drywall & Acoustical (MOB)",
+        "isDeleted": 0,
+        "userId": "c93bf13d-f890-4bae-89cb-ee153eb86cfc",
+        "reviewId": "1HwHhH1uguf5ymptDWRfkafYHEM8oSZ6zG"
+      },
+      {
+        "id": 21,
+        "word": "Bentley",
+        "definition": "EIFS",
+        "isDeleted": 0,
+        "userId": "066a8779-9010-4e37-92bf-d12f60ca75ec",
+        "reviewId": "14Whi8MVrXjgmACDJp3yc5vQ2ETjnjyXu2"
+      },
+      {
+        "id": 22,
+        "word": "Cadillac",
+        "definition": "Curb & Gutter",
+        "isDeleted": 1,
+        "userId": "888aedbe-25fc-44b3-859d-90445f4c88f9",
+        "reviewId": "1GZgduSoaqTyZNoV3xXnqirJBr9K2wxGDz"
+      },
+      {
+        "id": 23,
+        "word": "Pontiac",
+        "definition": "Fire Protection",
+        "isDeleted": 1,
+        "userId": "d43705c8-ad7d-46b4-9b59-9c3fb568cbef",
+        "reviewId": "16BY1TZJLtDzdY8tCfMPbtMetfqHcjMLLk"
+      },
+      {
+        "id": 24,
+        "word": "Acura",
+        "definition": "Termite Control",
+        "isDeleted": 0,
+        "userId": "2a29ce29-80a8-447b-bd74-ea075c52d57c",
+        "reviewId": "19E2vRnfBe9yykvTPBV1CinvjMwARqdX3a"
+      },
+      {
+        "id": 25,
+        "word": "GMC",
+        "definition": "Elevator",
+        "isDeleted": 1,
+        "userId": "3e00594f-fa92-4976-a939-8d2cfe2b50c7",
+        "reviewId": "1GgHU2arZdtLQCXJY9qH69hshMNkEiWcUi"
+      },
+      {
+        "id": 26,
+        "word": "Mercury",
+        "definition": "Ornamental Railings",
+        "isDeleted": 0,
+        "userId": "a0f5416f-4b74-4b1c-a255-89380e3edf91",
+        "reviewId": "135LCDWRqsAN6yoLN29ywmkwQApBpmW3ye"
+      },
+      {
+        "id": 27,
+        "word": "Ford",
+        "definition": "Doors, Frames & Hardware",
+        "isDeleted": 1,
+        "userId": "2b73ff89-b2bc-4851-98b9-ffa1e21f89cb",
+        "reviewId": "133poiu1DL4NKN1pMKLTiNNFYbH9Wbn36P"
+      },
+      {
+        "id": 28,
+        "word": "Maybach",
+        "definition": "Termite Control",
+        "isDeleted": 1,
+        "userId": "d46630fe-788f-484f-816f-c61184a37f0b",
+        "reviewId": "182qbMKKTNH3FskLxWNfd6pW1YR3nuUtqU"
+      },
+      {
+        "id": 29,
+        "word": "Mercedes-Benz",
+        "definition": "Epoxy Flooring",
+        "isDeleted": 1,
+        "userId": "0f081094-3597-4e5a-8487-76801e4ee218",
+        "reviewId": "146iqCSkTRjRZEzSSe2UqJNrFhE3JMdzju"
+      },
+      {
+        "id": 30,
+        "word": "Pontiac",
+        "definition": "Termite Control",
+        "isDeleted": 0,
+        "userId": "385e7102-5a90-4c78-9c92-acd9c8c3504c",
+        "reviewId": "149YxuqUX7oWVMVF9QUmZTbprozP7hjzzZ"
+      },
+      {
+        "id": 31,
+        "word": "Mercedes-Benz",
+        "definition": "Roofing (Asphalt)",
+        "isDeleted": 1,
+        "userId": "77a4d6a2-752e-41e2-853c-9e044382d66a",
+        "reviewId": "1FY4YtgDNQ3dJZtv8NNatpXxJFW7R2SScF"
+      },
+      {
+        "id": 32,
+        "word": "Chevrolet",
+        "definition": "Wall Protection",
+        "isDeleted": 1,
+        "userId": "f1179cb2-836f-462c-8154-a5ff888d8918",
+        "reviewId": "1AcEZohp4vwDPeLVERQiPAMnxZpyrfAJxd"
+      },
+      {
+        "id": 33,
+        "word": "Volkswagen",
+        "definition": "Roofing (Metal)",
+        "isDeleted": 0,
+        "userId": "ddc657b2-e03d-419f-b8d5-483c2408403a",
+        "reviewId": "19MF2be3ZTKERTLMoFmX8ndVSY5yGUuLQV"
+      },
+      {
+        "id": 34,
+        "word": "Honda",
+        "definition": "Termite Control",
+        "isDeleted": 0,
+        "userId": "935977ac-af9b-4932-9686-b8c19d0291c4",
+        "reviewId": "1BcW1b82BRpwAdMaVoCWT1ygB5URMsoUXf"
+      },
+      {
+        "id": 35,
+        "word": "Plymouth",
+        "definition": "Epoxy Flooring",
+        "isDeleted": 1,
+        "userId": "8511d81e-b96e-4437-92ca-725e3895cabc",
+        "reviewId": "1GzNaAe1Hf5CjThFpxxmXacHiWQs6NqKG9"
+      },
+      {
+        "id": 36,
+        "word": "Mitsubishi",
+        "definition": "EIFS",
+        "isDeleted": 0,
+        "userId": "64a24d37-96db-464c-aad0-36ea36f8175a",
+        "reviewId": "1JYJXR5PBZXV96HJqpFgc3nDoyieRigtwa"
+      },
+      {
+        "id": 37,
+        "word": "Chevrolet",
+        "definition": "Rebar & Wire Mesh Install",
+        "isDeleted": 1,
+        "userId": "c9238efd-6da7-4f87-8f31-b1f787dc2ef9",
+        "reviewId": "1LCwnBT3ZfVAYrfJJLwjLFJkqH7GQTtApA"
+      },
+      {
+        "id": 38,
+        "word": "Audi",
+        "definition": "Masonry",
+        "isDeleted": 1,
+        "userId": "794ee1c4-89db-48c1-aa3d-b71c62bb27f0",
+        "reviewId": "13KYGqMBvTnWgYomnVMaKVSEYwMEnfcc59"
+      },
+      {
+        "id": 39,
+        "word": "Ford",
+        "definition": "Curb & Gutter",
+        "isDeleted": 1,
+        "userId": "fe06c4e4-d865-4654-bf0e-6b2c330206a8",
+        "reviewId": "1J2xccWa6qVHTqNuZUN1VcXA37hBpNBWxm"
+      },
+      {
+        "id": 40,
+        "word": "Nissan",
+        "definition": "Structural & Misc Steel Erection",
+        "isDeleted": 1,
+        "userId": "a16e3482-f09c-4e0a-9299-514b486e0aa1",
+        "reviewId": "1D5qbgLvA259B3LHpqet11couPaWG1KHUB"
+      },
+      {
+        "id": 41,
+        "word": "BMW",
+        "definition": "Epoxy Flooring",
+        "isDeleted": 1,
+        "userId": "99aa8960-455a-421c-8a16-92cc1ead3e10",
+        "reviewId": "1G3QM7JYircdZnPucRFEoiTiHzgcN37AQg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "message": "Successfully fetched the word result",
+  "status": 200,
+  "data": {
+    "columns": [
+      {
+        "label": "Id",
+        "id": 0,
+        "accessor": "id"
+      },
+      {
+        "label": "Word",
+        "id": 1,
+        "accessor": "word"
+      },
+      {
+        "label": "Definition",
+        "id": 2,
+        "accessor": "definition"
+      },
+      {
+        "label": "is_deleted",
+        "id": 3,
+        "accessor": "isDeleted"
+      },
+      {
+        "label": "user_id",
+        "id": 4,
+        "accessor": "userId"
+      },
+      {
+        "label": "review_id",
+        "id": 5,
+        "accessor": "reviewId"
+      }
+    ],
+    "rows": [
+      {
+        "id": 1,
+        "word": "fresh-thinking",
+        "definition": "Ornamental Railings",
+        "isDeleted": 1,
+        "userId": "6f1de819-e89e-4978-b0e0-cdd59045f61f",
+        "reviewId": "1LGZiNSpDA9dGG7Uv1bSRRBtpsXY2AiA3V"
+      }
+    ]
+  }
+}
