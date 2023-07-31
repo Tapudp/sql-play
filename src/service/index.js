@@ -7,8 +7,6 @@ import randomQueryResult from '../constants/randomQueryResult.json';
 import utils from '../utils';
 
 const mockFetch = (url, request, mockResult) => {
-  console.log(':: mock fetch :: ', url, JSON.stringify(request));
-
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(mockResult);

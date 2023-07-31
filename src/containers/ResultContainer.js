@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import CustomLoader from '../components/CustomLoader';
 import CustomTable from '../components/CustomTable';
 import { useAppContext } from '../context';
-import constants from '../constants';
 import utils from '../utils';
 
 export default function ResultContainer() {
@@ -18,11 +17,7 @@ export default function ResultContainer() {
   const [rowsToShow, setRows] = useState(rows);
 
   useEffect(() => {
-    console.log(
-      ':: after slicing :: ',
-      rows.slice(pageNumber - 1, pageNumber * constants.table.pageSize)
-    );
-    setRows((prev) => utils.paginate(rows, pageNumber));
+    setRows(() => utils.paginate(rows, pageNumber));
   }, [pageNumber, rows]);
 
   if (isLoading) {

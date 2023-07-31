@@ -50,6 +50,8 @@ const AppContextProvider = ({ children }) => {
     const result = await request(queryText);
 
     if (!result.success) {
+      // logger.push() values to the third party logger where we can read errors
+      // and set alerts to indicate engineers whenever something fails
       setError(true);
       return;
     }
